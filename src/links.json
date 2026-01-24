@@ -1,0 +1,12 @@
+{
+    "profile": {
+      "name": "3D Maker Pro",
+      "bio": "Turning Plastic into Purpose",
+      "avatar": "your-image-url.jpg"
+    },
+    "socials": [
+      { "id": 1, "label": "Instagram", "url": "...", "icon": "Instagram" },
+      { "id": 2, "label": "Printables", "url": "...", "icon": "Printer" },
+      { "id": 3, "label": "WhatsApp", "url": "...", "icon": "MessageCircle" }
+    ]
+  }
