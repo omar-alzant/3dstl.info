@@ -24,7 +24,7 @@ function App() {
     <div className="app-wrapper">
       <div className="glass-card">
         <img src={profileData.avatar} alt="Profile" className="profile-img" />
-        <h1>{profileData.name}</h1>
+        <h4>{profileData.name}</h4>
         <p className="bio">{profileData.bio}</p>
 
         <div className="links-container">
