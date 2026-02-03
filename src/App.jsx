@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Facebook, MessageCircle, Globe, ExternalLink } from 'lucide-react';
+import { Instagram, Facebook, MessageCircle, Globe, ExternalLink, MapIcon, LocationEditIcon, LocateIcon, LocateOffIcon } from 'lucide-react';
 import './App.css';
 
 const message = encodeURIComponent("مرحبا كيف حالك؟");
@@ -11,9 +11,10 @@ const profileData = {
   bio: "3D printing | Engineer projects",
   avatar: "./Logo.png", // Replace with your photo URL
   links: [
+    { name: 'WhatsApp', url: whatsappUrl, icon: <MessageCircle />, color: '#25D366' },
     { name: 'Instagram', url: 'https://www.instagram.com/3dstl961?igsh=MTFpamM4eHc3MGhvYQ==', icon: <Instagram />, color: '#E1306C' },
     { name: 'Facebook', url: 'https://facebook.com/your', icon: <Facebook />, color: '#1877F2' },
-    { name: 'WhatsApp', url: whatsappUrl, icon: <MessageCircle />, color: '#25D366' },
+    { name: 'Location', url: 'https://maps.app.goo.gl/YgeRm1o4HJLLJn2CA', icon: <LocateIcon />, color: '#187755' },
     { name: 'Website', url: '/', icon: <Globe />, color: '#6366F1' },
   ]
 };
